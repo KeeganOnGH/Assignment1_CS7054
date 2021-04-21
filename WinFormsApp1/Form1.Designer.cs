@@ -45,7 +45,7 @@ namespace WinFormsApp1
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "Meal";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
@@ -110,6 +110,7 @@ namespace WinFormsApp1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.listBox1);
